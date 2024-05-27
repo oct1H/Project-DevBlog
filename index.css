@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    min-width: 1600px;
+    min-height: 60px;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+}
+#nav_box {
+    width: 1168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#menu_box{
+    position: absolute;
+    right:0px;
+}
+#menu_box > p,#menu_box>div>p {
+    width:180px;
+    height:60px;
+    color: #00adb5;
+    font-weight: bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    background-color: #222831;
+}
+.none{
+    display: none;
+}
+.menu_open{
+    animation-name: menu_open;
+    animation-duration: 1s;
+    overflow: hidden;
+    height:240px;
+}
+@keyframes menu_open{
+    from{
+        height:0px;
+    }
+    to{
+        height:240px;
+    }
+}
+.menu_close{
+    animation-name: menu_close;
+    animation-duration: 1s;
+    overflow: hidden;
+    height: 0px;
+}
+@keyframes menu_close{
+    from{
+        height:240px;
+    }
+    to{
+        height:0px;
+    }
+}
+main {
+    width: 100%;
+    min-width: 1600px;
+    min-height: calc(100vh - 180px);
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+#main_text {
+    font-size:72px;
+    color: #FFFFFF;
+    position:absolute;
+}
+#home_img_box {
+    width: 100%;
+    min-width: 1600px;
+    height: 352px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home_img {
+    width:100%;
+    min-width: 1600px;
+    height:352px;
+}
+#home_menu {
+    width: 1168px;
+    margin:32px auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 345px 345px;
+    gap : 16px;
+}
+.menu {
+    width: 280px;
+    height: 345px;
+    background-color: #393e46;
+    color: #FFFFFF;
+}
+footer {
+    width: 100%;
+    min-width: 1600px;
+    height: 120px;
+    background-color: #222831;
+}
