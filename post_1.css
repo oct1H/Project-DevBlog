@@ -105,7 +105,7 @@ header {
 main {
     width: 100%;
     min-width: 1600px;
-    min-height: calc(100vh - 180px);
+    min-height: calc(100vh - 676px);
     background-color: #EEEEEE;
     display: flex;
     flex-direction: column;
