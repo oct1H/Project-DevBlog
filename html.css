@@ -78,14 +78,14 @@ header {
     animation-name: menu_open;
     animation-duration: 1s;
     overflow: hidden;
-    height: 240px;
+    height: 180px;
 }
 @keyframes menu_open {
     from {
         height: 0;
     }
     to {
-        height: 240px;
+        height: 180px;
     }
 }
 .menu_close {
