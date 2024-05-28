@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+a {
+    text-decoration-line: none;
+}
 header {
     width: 100%;
     min-width: 1600px;
