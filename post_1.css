@@ -196,3 +196,6 @@ footer {
 #footer_info > p {
     margin: 0 0 0 8px;
 }
+.utterances{
+    max-width: 100% !important;
+}
