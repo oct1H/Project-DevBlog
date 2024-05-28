@@ -19,6 +19,30 @@ header {
     align-items: center;
     position: relative;
 }
+#nav_button_box {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    left: 0;
+}
+.nav_button > img {
+    width: 32px;
+    height: 40px;
+    padding: 4px 0;
+    background-size: 0 2px;
+
+}
+.nav_button > img:hover {
+    background-size: 100% 2px;
+    background-image: linear-gradient(#00adb5,#00adb5);
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 0;
+    transition: background-size 0.5s;
+}
 #menu_box {
     position: absolute;
     right: 0;
@@ -33,6 +57,16 @@ header {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding: 4px 0;
+    background-size: 0 2px;
+}
+#menu_box > div > a > p:hover,
+#menu_box > p:hover {
+    background-size: 100% 2px;
+    background-image: linear-gradient(#00adb5,#00adb5);
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 0;
+    transition: background-size 0.5s;
 }
 #menu_box > div > a > p {
     background-color: #393e46;
@@ -87,23 +121,23 @@ h2 {
     width: 1168px;
     text-align: center;
     font-weight: bold;
-    color:#00ADB5;
-    padding: 8px 0 8px;
+    color: #00ADB5;
+    padding: 8px 0;
     border-width: 0 0 1px 0;
     border-color: #b4b4b4;
     border-style: solid;
 }
 h3 {
     width: 1168px;
-    padding : 8px 0 0 8px;
+    padding: 8px 0 0 8px;
     color: #808080;
     font-size: 14px;
 }
 #post_content {
-    width : 1168px;
-    height : 2000px;
-    padding : 8px;
-    margin: 48px 0 0 0;
+    width: 1168px;
+    height: 2000px;
+    padding: 8px;
+    margin: 48px 0 0;
 }
 #main_margin {
     width: 100%;
@@ -116,6 +150,34 @@ h3 {
     min-width: 1600px;
     height: 496px;
     background-color: #393e46;
+    display: flex;
+    justify-content: center;
+}
+#main_footer_box {
+    width: 1168px;
+    height: 496px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 320px;
+    gap: 16px;
+}
+.menu {
+    width: 280px;
+    height: 320px;
+    background-image: linear-gradient(to bottom, #222831 30%, #393e46);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sub_menu {
+    width: 280px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer {
     width: 100%;
