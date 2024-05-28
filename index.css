@@ -108,6 +108,10 @@ main {
     background-color: #393e46;
     width: 280px;
     height: 320px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #main_footer {
     width: 100%;
