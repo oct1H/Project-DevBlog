@@ -27,7 +27,7 @@ header {
 #menu_box > p {
     width: 180px;
     height: 60px;
-    color: #00adb5;
+    color: #00ADB5;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -75,45 +75,47 @@ main {
     background-color: #EEEEEE;
     display: flex;
     flex-direction: column;
-}
-#main_text {
-    font-size: 72px;
-    color: #FFFFFF;
-    position: absolute;
-}
-#home_img_box {
-    width: 100%;
-    min-width: 1600px;
-    height: 352px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
-#home_img {
-    width: 100%;
-    min-width: 1600px;
-    height: 352px;
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 160px 0 0;
 }
-#home_menu {
+h2 {
     width: 1168px;
-    margin: 32px auto;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 280px 280px 280px 280px;
-    grid-template-rows: 320px 320px;
-    gap: 16px;
+    text-align: center;
+    font-weight: bold;
+    color:#00ADB5;
+    padding: 8px 0 8px;
+    border-width: 0 0 1px 0;
+    border-color: #b4b4b4;
+    border-style: solid;
 }
-.menu {
-    background-color: #393e46;
-    width: 280px;
-    height: 320px;
+h3 {
+    width: 1168px;
+    padding : 8px 0 0 8px;
+    color: #808080;
+    font-size: 14px;
 }
-#main_footer {
+#post_content {
+    width : 1168px;
+    height : 2000px;
+    padding : 8px;
+    margin: 48px 0 0 0;
+}
+#main_margin {
     width: 100%;
     min-width: 1600px;
     height: 128px;
     background-color: #EEEEEE;
+}
+#main_footer {
+    width: 100%;
+    min-width: 1600px;
+    height: 496px;
+    background-color: #393e46;
 }
 footer {
     width: 100%;

@@ -98,6 +98,8 @@ h1 {
 }
 .menu {
     background-color: #393e46;
+    width: 280px;
+    height: 320px;
 }
 #main_footer {
     width: 100%;
@@ -110,4 +112,16 @@ footer {
     min-width: 1600px;
     height: 120px;
     background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer_info {
+    width: 1168px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00ADB5;
+}
+#footer_info > p {
+    margin: 0 0 0 8px;
 }
