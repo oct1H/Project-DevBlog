@@ -115,7 +115,7 @@ h3 {
 }
 #post_content {
     width: 1168px;
-    height: 2000px;
+    min-height: 2000px;
     padding: 8px;
     margin: 48px 0 0;
 }
@@ -195,9 +195,20 @@ footer {
     font-size: 24px;
     font-weight: bold;
 }
+.sub_text {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
 #post_content>p{
     line-height: 24px;
 }
 video {
     width: 800px;
+}
+hr{
+    background: #b4b4b4;
+    height: 1px;
+    border: 0;
+    margin: 32px 0 32px 0;
 }
