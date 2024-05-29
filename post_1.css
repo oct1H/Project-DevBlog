@@ -196,7 +196,7 @@ footer {
 #footer_info > p {
     margin: 0 0 0 8px;
 }
-.comments {
+.comments, .utterances {
     width: 1168px;
-    max-width: 1168px;
+    max-width: 1168px !important;
 }
