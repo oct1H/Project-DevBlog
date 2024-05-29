@@ -70,36 +70,13 @@ header {
 #menu_box > div > a > p {
     background-color: #393e46;
 }
-.none {
-    display: none;
-}
-.menu_open {
-    animation-name: menu_open;
-    animation-duration: 1s;
+#menu_box > div {
+    transition-duration: 1s;
     overflow: hidden;
-    height: 180px;
+    height: 0px;
 }
-@keyframes menu_open {
-    from {
-        height: 0;
-    }
-    to {
-        height: 180px;
-    }
-}
-.menu_close {
-    animation-name: menu_close;
-    animation-duration: 1s;
-    overflow: hidden;
-    height: 0;
-}
-@keyframes menu_close {
-    from {
-        height: 240px;
-    }
-    to {
-        height: 0;
-    }
+.open {
+    height: 180px !important;
 }
 main {
     width: 100%;
