@@ -197,6 +197,5 @@ footer {
     margin: 0 0 0 8px;
 }
 .comments {
-    width: 1168px;
-    max-width: 100% !important;
+    max-width: 1168px; !important;
 }
