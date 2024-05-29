@@ -174,8 +174,11 @@ footer {
     margin: 0 0 0 8px;
 }
 .comments {
+    padding: 16px 0 0 0;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #b4b4b4;
     width: 1168px;
-    height: 932px;
 }
 .utterances {
     max-width: 1168px !important;
