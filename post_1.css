@@ -116,7 +116,7 @@ h3 {
 #post_content {
     width: 1168px;
     min-height: 2000px;
-    padding: 8px;
+    padding: 8px 8px 128px 8px;
     margin: 48px 0 0;
 }
 #main_margin {
