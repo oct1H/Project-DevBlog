@@ -1,3 +1,25 @@
+/* Swiper Css */
+:root {
+    --swiper-theme-color: #00adb5 !important;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    color: #FFFFFF;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: #00adb5 !important;
+}
+/* 본 css */
 * {
     box-sizing: border-box;
 }
@@ -12,7 +34,7 @@ header {
     display: flex;
     justify-content: center;
     position: sticky;
-    top:0;
+    top: 0;
     z-index: 1;
 }
 #nav_box {
@@ -37,11 +59,10 @@ header {
     height: 40px;
     padding: 4px 0;
     background-size: 0 2px;
-
 }
 .nav_button > img:hover {
     background-size: 100% 2px;
-    background-image: linear-gradient(#00adb5,#00adb5);
+    background-image: linear-gradient(#00adb5, #00adb5);
     background-repeat: no-repeat;
     background-position: left 0 bottom 0;
     transition: background-size 0.5s;
@@ -54,7 +75,7 @@ header {
 #menu_box > p {
     width: 180px;
     height: 60px;
-    color: #00ADB5;
+    color: #00adb5;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -65,7 +86,7 @@ header {
 #menu_box > div > a > p:hover,
 #menu_box > p:hover {
     background-size: 100% 2px;
-    background-image: linear-gradient(#00adb5,#00adb5);
+    background-image: linear-gradient(#00adb5, #00adb5);
     background-repeat: no-repeat;
     background-position: left 0 bottom 0;
     transition: background-size 0.5s;
@@ -76,7 +97,7 @@ header {
 #menu_box > div {
     transition-duration: 1s;
     overflow: hidden;
-    height: 0px;
+    height: 0;
 }
 .open {
     height: 180px !important;
@@ -85,7 +106,7 @@ main {
     width: 100%;
     min-width: 1600px;
     min-height: calc(100vh - 676px);
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,12 +121,12 @@ h2 {
     width: 1168px;
     text-align: center;
     font-weight: bold;
-    color: #00ADB5;
+    color: #00adb5;
     padding: 16px 0;
     border-width: 0 0 1px 0;
     border-color: #b4b4b4;
     border-style: solid;
-    margin: 8px 0 0 0;
+    margin: 8px 0 0;
 }
 h3 {
     width: 1168px;
@@ -116,14 +137,14 @@ h3 {
 #post_content {
     width: 1168px;
     min-height: 2000px;
-    padding: 8px 8px 128px 8px;
+    padding: 8px 8px 128px;
     margin: 48px 0 0;
 }
 #main_margin {
     width: 100%;
     min-width: 1600px;
     height: 128px;
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
 #main_footer {
     width: 100%;
@@ -146,7 +167,7 @@ h3 {
     width: 280px;
     height: 320px;
     background-image: linear-gradient(to bottom, #222831 30%, #393e46);
-    color: #FFFFFF;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,13 +193,13 @@ footer {
     width: 1168px;
     font-size: 14px;
     line-height: 24px;
-    color: #00ADB5;
+    color: #00adb5;
 }
 #footer_info > p {
     margin: 0 0 0 8px;
 }
 .comments {
-    padding: 16px 0 0 0;
+    padding: 16px 0 0;
     border-width: 1px 0 0 0;
     border-style: solid;
     border-color: #b4b4b4;
@@ -198,17 +219,17 @@ footer {
 .sub_text {
     font-size: 18px;
     font-weight: bold;
-    margin: 0 0 4px 0;
+    margin: 0 0 4px;
 }
-#post_content>p{
+#post_content > p {
     line-height: 24px;
 }
 video {
     width: 800px;
 }
-hr{
+hr {
     background: #b4b4b4;
     height: 1px;
     border: 0;
-    margin: 32px 0 32px 0;
+    margin: 32px 0;
 }

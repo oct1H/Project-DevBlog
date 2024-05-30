@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./post_1.css">
         <link rel="icon" href="./images/icon.png">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     </head>
     <body>
         <header>
@@ -44,25 +47,48 @@
                 <p>&nbsp&nbsp&nbsp· HTML 언어와 CSS 언어로 기본 틀을 만들고, 스타일을 부여하여 디자인을 할 수 있다.</p>
                 <p>&nbsp&nbsp&nbsp· 이 후 자바스크립트 언어를 활용하여 정적인 메뉴 요소를 동적으로 만들 수 있다.</p><br>
                 <p class="sub_text">예제)</p>
-                <video src="./videos/Example_1.mp4" controls></video>
+                <video src="./videos/Example_1.mp4" controls="controls"></video>
                 <hr>
                 <p class="sub_title">1. 구성 및 디자인</p><br>
                 <p>&nbsp&nbsp&nbsp· 우선 p태그, div태그 또는 ul태그 등을 자유롭게 활용하여 메뉴의 목록을 구성할 수 있다.</p>
-                <p>&nbsp&nbsp&nbsp· CSS언어를 사용하여, 각 요소마다 width, height 속성으로 크기를 지정하고, background-color 속성을 활용해 배경색을 추가할 수 있다.</p>
-                <p>&nbsp&nbsp&nbsp· 이 후 display: flex 속성과 함께 사용할 수 있는 justify-content, align-items 속성을 활용하여 텍스트를 가운데 배치할 수 있다.</p><br>
+                <p>&nbsp&nbsp&nbsp· CSS언어를 사용하여, 각 요소마다 width, height 속성으로 크기를 지정하고,
+                    background-color 속성을 활용해 배경색을 추가할 수 있다.</p>
+                <p>&nbsp&nbsp&nbsp· 이 후 display: flex 속성과 함께 사용할 수 있는 justify-content,
+                    align-items 속성을 활용하여 텍스트를 가운데 배치할 수 있다.</p><br>
                 <p class="sub_text">예시) width: 160px, height: 60px</p>
                 <img src="./images/post1_img1.png"><br><br>
                 <p>&nbsp&nbsp&nbsp· 이제 배경이 검은색인 요소들을 감춰야 하는데, 두 가지 방법을 생각하였다.</p>
-                <p>&nbsp&nbsp&nbsp&nbsp- 첫번째 : 각 카테고리의 검은색 요소들을 div태그로 감싸고, 해당 div태그 스타일에 display: none 속성 부여하기</p>
-                <p>&nbsp&nbsp&nbsp&nbsp- 두번째 : 위와 동일하게 div태그로 감싸고, 해당 div태그의 height를 0으로 만들고 넘치는 요소들을 감추기</p><br>
+                <p>&nbsp&nbsp&nbsp&nbsp- 첫번째 : 각 카테고리의 검은색 요소들을 div태그로 감싸고, 해당 div태그 스타일에
+                    display: none 속성 부여하기</p>
+                <p>&nbsp&nbsp&nbsp&nbsp- 두번째 : 위와 동일하게 div태그로 감싸고, 해당 div태그의 height를 0으로 만들고 넘치는
+                    요소들을 감추기</p><br>
                 <hr>
                 <p class="sub_title">2. 자바스크립트</p><br>
-                <p>&nbsp&nbsp&nbsp· </p>
-                <p>&nbsp&nbsp&nbsp· </p><br>
+                <p>&nbsp&nbsp&nbsp·
+                </p>
+                <p>&nbsp&nbsp&nbsp·
+                </p><br>
                 <p class="sub_text">· classList를 사용한 경우</p>
-                <p class="codepen" data-height="600" data-default-tab="html,result" data-slug-hash="wvboLLm" data-pen-title="메뉴 기능 구현" data-user="qwmamjfw-the-solid" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                    <span>See the Pen <a href="https://codepen.io/qwmamjfw-the-solid/pen/wvboLLm">
-                    메뉴 기능 구현</a> by 목성 (<a href="https://codepen.io/qwmamjfw-the-solid">@qwmamjfw-the-solid</a>)
+                <p
+                    class="codepen"
+                    data-height="600"
+                    data-default-tab="html,result"
+                    data-slug-hash="wvboLLm"
+                    data-pen-title="메뉴 기능 구현"
+                    data-user="qwmamjfw-the-solid"
+                    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen
+                        <a href="https://codepen.io/qwmamjfw-the-solid/pen/wvboLLm">
+                            메뉴 기능 구현</a>
+                        by 목성 (<a href="https://codepen.io/qwmamjfw-the-solid">@qwmamjfw-the-solid</a>) on
+                        <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async="async" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                <br>
+                <p class="sub_text">· offsetHeight와 scrollHeight를 사용한 경우</p>
+                <p class="codepen" data-height="600" data-default-tab="html,result" data-slug-hash="OJYWzQw" data-pen-title="메뉴 기능 구현 2" data-user="qwmamjfw-the-solid" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/qwmamjfw-the-solid/pen/OJYWzQw">
+                    메뉴 기능 구현 2</a> by 목성 (<a href="https://codepen.io/qwmamjfw-the-solid">@qwmamjfw-the-solid</a>)
                     on <a href="https://codepen.io">CodePen</a>.</span>
                   </p>
                   <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -85,8 +111,25 @@
                 <div class="menu">post2</div>
                 <div class="menu">post3</div>
                 <div class="menu">
-                    <div class="sub_menu">post4</div>
-                    <div class="sub_menu">post5</div>
+                    <div class="sub_menu">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">post4</div>
+                                <div class="swiper-slide">post5</div>
+                                <div class="swiper-slide">post6</div>
+                                <div class="swiper-slide">post7</div>
+                                <div class="swiper-slide">post8</div>
+                                <div class="swiper-slide">post9</div>
+                                <div class="swiper-slide">post10</div>
+                                <div class="swiper-slide">post11</div>
+                                <div class="swiper-slide">post12</div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="sub_menu">post13</div>
                 </div>
             </div>
         </div>
@@ -97,6 +140,24 @@
             </div>
         </footer>
         <script src="./post_1.js"></script>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                }
+            });
+        </script>
     </body>
 </html>
