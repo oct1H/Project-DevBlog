@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./index.css">
         <link rel="icon" href="./images/icon.png">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     </head>
     <body>
         <header>
@@ -42,17 +45,38 @@
                     <img src="./images/main_moon_01.jpg" id="home_img">
                 </div>
             </a>
-            <div id="home_menu">
-                <a href="./post_1.html">
-                    <div class="menu">POST1</div>
-                </a>
-                <div class="menu"></div>
-                <div class="menu"></div>
-                <div class="menu"></div>
-                <div class="menu"></div>
-                <div class="menu"></div>
-                <div class="menu"></div>
-                <div class="menu"></div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div id="home_menu">
+                            <a href="./post_1.html">
+                                <div class="menu">POST1</div>
+                            </a>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div id="home_menu">
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
             <div id="main_footer"></div>
         </main>
@@ -63,5 +87,23 @@
             </div>
         </footer>
         <script src="./index.js"></script>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                cssMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                },
+                pagination: {
+                    el: ".swiper-pagination"
+                },
+                mousewheel: true,
+                keyboard: true
+            });
+        </script>
     </body>
 </html>
